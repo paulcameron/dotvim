@@ -1,6 +1,6 @@
 set expandtab
-set shiftwidth=4
-set tabstop=4
+set shiftwidth=2
+set tabstop=2
 set smarttab
 set ai
 set si
@@ -27,19 +27,10 @@ if has("autocmd")
   autocmd bufwritepost .vimrd source $MYVIMRC
 endif
 
+filetype plugin on
+
 " Strip the newline from the end of a string
 "function! Chomp(str)
 "  return substitute(a:str, '\n$', '', '')
 "endfunction
 
-" Find a file and pass it to cmd
-"function! DmenuOpen(cmd)
-"  let fname = Chomp(system("git ls-files | dmenu -i -l 20 -p " . a:cmd))
-"  if empty(fname)
-"    return
-"  endif
-"  execute a:cmd . " " . fname
-"endfunction
-
-"map <c-t> :call DmenuOpen("tabe")<cr>
-"map <c-f> :call DmenuOpen("e")<cr>
