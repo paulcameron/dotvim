@@ -4,7 +4,7 @@ set tabstop=2
 set smarttab
 set ai
 set si
-set background=light
+set background=dark
 
 set ruler
 set number
