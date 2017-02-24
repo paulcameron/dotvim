@@ -22,6 +22,7 @@ nnoremap <silent> <Space> :silent noh<Bar>echo<CR>
 syntax on
 
 let g:ctrlp_working_path_mode=0
+let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
 
 "let g:solarized_termcolors=256
 colorscheme solarized
