@@ -4,10 +4,11 @@ set tabstop=2
 set smarttab
 set ai
 set si
-set background=dark
+set background=light
 
 set ruler
 set number
+set relativenumber
 set incsearch ignorecase
 
 set ssop-=options
