@@ -1,7 +1,7 @@
 How to add new module: http://usevim.com/2012/03/01/using-pathogen-with-git-submodules/
 
 Installation:
-    git clone git://github.com/paulcameron/dotvim.git ~/.vim
+    git clone git@github.com:paulcameron/dotvim.git ~/.vim
 
 Create symlinks:
     ln -s ~/.vim/vimrc ~/.vimrc
